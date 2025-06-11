@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DreamMix - Générateur d'univers absurdes IA</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>DreamMix</h1>
+        <p>Crée ton univers absurde en quelques clics grâce à l'IA</p>
+    </header>
+
+    <main>
+        <form id="promptForm">
+            <label for="keywords">Entre tes idées absurdes :</label>
+            <input type="text" id="keywords" placeholder="Ex: Licorne, Pizza, New York sous l'eau">
+            <button type="submit">Générer</button>
+        </form>
+
+        <section id="result" class="hidden">
+            <h2>Ton univers :</h2>
+            <div id="imageContainer"></div>
+            <div id="titleContainer"></div>
+            <audio id="audioPlayer" controls></audio>
+            <button id="regenerateBtn">Créer un nouvel univers</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>Projet IA - DreamMix © 2025</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
